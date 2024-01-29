@@ -1,3 +1,5 @@
+import Header from "./assets/components/Header/Header"
+import Shop from "./assets/components/Shop/Shop"
 
 
 function App() {
@@ -5,9 +7,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <p>Simple project setup</p>
-      </div>
+      <Header/>
+      <Shop/>
     </>
   )
 }

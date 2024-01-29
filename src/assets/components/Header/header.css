@@ -1,0 +1,25 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,.nav-list{
+    background-color: hsl(204, 31%, 16%);
+    padding: 0.75rem; 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-list li{
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.nav-list li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
